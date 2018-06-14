@@ -1,28 +1,71 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  font-family: 'Lato', sans-serif;
+  background: #F8FAFD;
+}
+.header {
+  text-align: center;
+  padding:  30px;
+  background:  #106900;
+}
+.header h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.container .wast-container
+{
+  height:auto;
+  width: 500px;
+  margin:0 auto;
+}
+.wast-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wast-item {
+  list-style: none;
+  border: 0.1px solid #AAAAAA;
+  background: white;
+  text-align: center;
+  height: 90px;
+  padding: 5px;
+  cursor: pointer;
+  overflow: wrap;
+  width: 90px;
+}
+.wast-item-selected {
+  list-style: none;
+  border: 0.1px solid #AAAAAA;
+  background: #33B8FF;
+  text-align: center;
+  height: 90px;
+  padding: 5px;
+  cursor: pointer;
+  overflow: wrap;
+  width: 90px;
+}
+.container .garbage {
+  margin-bottom: 60px;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.container .garbage button {
+  margin: 20px;
+  background: transparent;
+  border: none;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.container .garbage i {
+  cursor: pointer;
 }
-
-.App-title {
-  font-size: 1.5em;
+.score-windows {
+  background: white;
+  width: 240px;
+  text-align: center;
+  height: 200px;
+  margin-left: 80px;
+  margin-top: 40px;
+  padding-top: 20px;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.score {
+  font-size: 65px;
+  color: #6B27C9;
 }

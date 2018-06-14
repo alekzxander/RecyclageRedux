@@ -1,0 +1,106 @@
+[
+    {
+        "name": "bouteille d'eau",
+        "type": "yellow"
+    },
+    {
+        "name": "gel douche",
+        "type": "yellow"
+    },
+    {
+        "name": "couche-culotte",
+        "type": "marron"
+    },
+    {
+        "name": "journaux",
+        "type": "blue"
+    },
+    {
+        "name": "bouteille de vin",
+        "type": "green"
+    },
+    {
+        "name": "reste de repas",
+        "type": "marron"
+    },
+    {
+        "name": "bouteille d'huile",
+        "type": "green"
+    },
+    {
+        "name": "bouteille de pastis",
+        "type": "green"
+    },
+    {
+        "name": "pot de yahourt",
+        "type": "marron"
+    },
+    {
+        "name": "magazine",
+        "type": "blue"
+    },
+    {
+        "name": "peau de banane",
+        "type": "marron"
+    },
+    {
+        "name": "pot de confiture",
+        "type": "green"
+    },
+    {
+        "name": "boîte à pizza",
+        "type": "yellow"
+    },
+    {
+        "name": "désodorisant",
+        "type": "yellow"
+    },
+    {
+        "name": "boîte de conserve",
+        "type": "yellow"
+    },
+    {
+        "name": "facture impayé",
+        "type": "blue"
+    },
+    {
+        "name": "belle-mère",
+        "type": "marron"
+    },
+    {
+        "name": "emballage carton",
+        "type": "blue"
+    },
+    {
+        "name": "petit pot a bébé",
+        "type": "green"
+    },
+    {
+        "name": "epluchure",
+        "type": "marron"
+    },
+    {
+        "name": "papier gras",
+        "type": "green"
+    },
+    {
+        "name": "paperasse publicitaire",
+        "type": "blue"
+    },
+    {
+        "name": "preservatif(usagé)",
+        "type": "marron"
+    },
+    {
+        "name": "mousse a rasé",
+        "type": "yellow"
+    },
+    {
+        "name": "boîte de gateau",
+        "type": "yellow"
+    },
+    {
+        "name": "boîte de soupe",
+        "type": "yellow"
+    }
+]
