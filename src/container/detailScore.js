@@ -59,6 +59,7 @@ class DetailScore extends Component {
                                 <ul>
                                     {goodResultList}
                                 </ul>
+                                <h3>Erreur</h3>
                                 <ul>
                                     {badResultList}
                                 </ul>
