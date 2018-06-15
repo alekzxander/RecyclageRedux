@@ -8,6 +8,9 @@ body {
   padding:  30px;
   background:  #106900;
 }
+strong {
+  font-size: 21px;
+}
 .header h1 {
   color: white;
   text-transform: uppercase;
@@ -67,11 +70,15 @@ body {
 }
 .score {
   font-size: 65px;
-  color: #6B27C9;
 }
 .details-score {
   background: white;
-  height: 400px;
   padding: 30px;
   margin-top: 60px;
+}
+.footer {
+  margin-top: 250px;
+  background: #3A3A50;
+  padding: 30px;
+  color: #E8E8E8;
 }

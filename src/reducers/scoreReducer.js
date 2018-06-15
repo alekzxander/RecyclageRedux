@@ -8,10 +8,9 @@ const initialScore = {
 export default function scoreReducer(state = initialScore, action) {
     switch (action.type) {
         case ActionType.GOOD_CAST:
-            console.log('good cast')
             return {
                 ...state,
-                score: state.score + action.payload.score,
+                score: state.score + action.payload.score, // Ajoute 10 point à chaque bon recyclage
                 goodResult: [...state.goodResult, action.payload.wast]
             }
         case ActionType.BAD_CAST:

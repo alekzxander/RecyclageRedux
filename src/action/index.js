@@ -34,32 +34,32 @@ export const getWaste = () => {
 
 export const castInGarbage = (wast, garbage) => {
     return dispatch => {
-        if (Object.keys(wast).length > 0 && wast.constructor === Object) {
-            switch (garbage) {
-                case 'yellow':
-                    return dispatch({
-                        type: ActionType.CAST_YELLOW,
-                        payload: wast
-                    })
-                case 'green':
-                    return dispatch({
-                        type: ActionType.CAST_GREEN,
-                        payload: wast
-                    })
-                case 'blue':
-                    return dispatch({
-                        type: ActionType.CAST_BLUE,
-                        payload: wast
-                    })
-                case 'marron':
-                    return dispatch({
-                        type: ActionType.CAST_MARRON,
-                        payload: wast
-                    })
-                default: return dispatch()
-            }
+
+        switch (garbage) {
+            case 'yellow':
+                return dispatch({
+                    type: ActionType.CAST_YELLOW,
+                    payload: wast
+                })
+            case 'green':
+                return dispatch({
+                    type: ActionType.CAST_GREEN,
+                    payload: wast
+                })
+            case 'blue':
+                return dispatch({
+                    type: ActionType.CAST_BLUE,
+                    payload: wast
+                })
+            case 'marron':
+                return dispatch({
+                    type: ActionType.CAST_MARRON,
+                    payload: wast
+                })
+            default: return dispatch()
         }
     }
+
 }
 export const dropWast = (wast) => {
     return dispatch => {
