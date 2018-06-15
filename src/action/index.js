@@ -73,8 +73,17 @@ export const calculScore = (wast, type) => {
     return dispatch => {
         if (wast.type === type) {
             dispatch({
-                type: ActionType.UPDATE_SCORE,
+                type: ActionType.GOOD_CAST,
+                payload: {
+                    wast,
+                    score: 10
+                }
 
+            })
+        } else if (wast.type !== type) {
+            dispatch({
+                type: ActionType.BAD_CAST,
+                payload: wast
             })
         }
     }

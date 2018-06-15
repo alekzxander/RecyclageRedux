@@ -69,3 +69,9 @@ body {
   font-size: 65px;
   color: #6B27C9;
 }
+.details-score {
+  background: white;
+  height: 400px;
+  padding: 30px;
+  margin-top: 60px;
+}

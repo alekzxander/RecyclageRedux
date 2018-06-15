@@ -12,7 +12,6 @@ export default function garbageReducer(state = initialGarbage, action) {
                 ...state, yellow: [...state.yellow, action.payload]
             }
         case ActionType.CAST_BLUE:
-            console.log(state)
             return {
                 ...state, blue: [...state.blue, action.payload],
 
@@ -22,7 +21,6 @@ export default function garbageReducer(state = initialGarbage, action) {
                 ...state, green: [...state.green, action.payload],
             }
         case ActionType.CAST_MARRON:
-            console.log('marron garbage')
             return {
                 ...state, marron: [...state.marron, action.payload],
             }

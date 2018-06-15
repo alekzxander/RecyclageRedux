@@ -3,6 +3,8 @@ import { getWaste } from '../action/index'
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import Main from './main';
+import DetailScore from './detailScore'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 class App extends Component {
 
   componentDidMount = () => {
@@ -12,7 +14,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Main />
+        <Router>
+          <Route exact path="/" component={Main} />
+        </Router>
+        <Router>
+          <Route exact path="/score" component={DetailScore} />
+        </Router>
+
       </div>
     )
   }

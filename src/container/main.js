@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
+import { Link } from "react-router-dom";
 import { castInGarbage, dropWast, calculScore } from '../action/index';
 import Header from '../component/header';
 import Scorewindows from '../component/scoreWindows';
@@ -37,7 +38,9 @@ class Main extends Component {
                 return (
                     <div>
                         <h2>Bravo tout les dêchets ont etait débarassés</h2>
-                        <button className="btn btn-primary">Détails du score</button>
+                        <Link className="btn btn-primary btn-lg" to="/score">
+                            Détails du score
+                        </Link>
                     </div>
                 )
             }

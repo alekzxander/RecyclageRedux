@@ -7,6 +7,7 @@ export const ActionType = {
     CAST_YELLOW: 'CAST_YELLOW',
     CAST_MARRON: 'CAST_MARRON',
     CAST_GREEN: 'CAST_GREEN',
-    UPDATE_SCORE: 'UPDATE_SCORE'
+    GOOD_CAST: 'GOOD_CAST',
+    BAD_CAST: 'BAD_CAST'
 
 }

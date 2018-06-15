@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react'
 import { connect } from 'react-redux';
 
-class scoreWindows extends Component {
+const scoreWindows = (props) => {
+    console.log(props.score)
+    return (
+        <div className="score-windows">
+            <h3>Score actuel</h3>
+            <p className="score">{props.score.score}</p>
 
-    render() {
-        console.log(this.props.garbage)
-        return (
-            <div className="score-windows">
-                <h3>Score actuel</h3>
-                <p className="score">{this.props.score}</p>
-            </div>
-        )
-    }
+        </div>
+    )
 }
+
 function mapStateToProps(state) {
     return {
         score: state.score
